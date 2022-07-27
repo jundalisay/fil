@@ -1,0 +1,198 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Sourced Sustainably"
+  content: "Savilas is a seafood exporter that sources fish and seafood from sustainable suppliers within Vietnam."
+  image : "/t/fish2.jpg"
+  button1:
+    enable : true
+    label : "View Products"
+    link : "fish-freshwater"
+
+  # demo video
+  video:
+    enable : true
+    btntxt: "This week's catch"
+    # videoURL : "https://www.youtube.com/embed/aWYWcJZoqBM"
+    # Lin recommend https://youtu.be/hAWOU9Kw1bo
+
+
+
+########################## About ##############################
+about:
+  enable : true
+  title : "Our Mission"
+  content : "<p>To make seafood supply sustainable by sourcing fish and other seafood. We give attention to production processes that are environmentally friendly.</p>"
+  image : "/t/fish3.jpg"
+
+
+
+######################## Promo Video ##########################
+video:
+  enable : true
+  title : "See our production"
+  content: "<p>Our production is sourced from the Mekong</p>
+  <p>Whether you are looking for basa fish, prawns, crabs, or squid, we have them!</p>
+  " 
+  # <p>Cebuanos have been well-known for roasting lechon in a way that is flavorful, tasty, and mouth-watering, 
+  # with meat that is tender, juicy, and aromatic, with a crispy-skin.</p>"    
+  # content : "To establish a sustainable animal shelter and build a community where people care for animals and treat them with respect and kindness."
+  # Angel's Shelter is an holistic animal shelter in Laguna. Holistic means that we don't only do animal resuce and adoption, but also community-building events, healthy eating, humanistic learning, and social work"
+  videoThumb : "/t/fish2.jpg"
+  # videoURL : "https://www.youtube.com/embed/VSaoTSxSvw0"
+
+
+# compare:
+#   enable : true
+#   title : "Compare our Prices"
+#   subtitle : "Our unique procurement system lets us have lower costs which leads to lower prices for our customers."
+#   items:
+#     - name: "Lechon Espesyal"
+#       content: "<span class='text-danger'>1 kg @ 1,400 pesos<br>500 grams @ 700 pesos<br>250 grams @ 350 pesos<br>-</span>"
+#       image: "/icons/l.jpg"      
+#     - name: "Cebu Lechon"
+#       content: "<span class='text-danger'>1 kg @ 1,300 pesos<br>500 grams @ 675 pesos<br>250 grams @ 350 pesos<br>-</span>"
+#       image: "/icons/r.jpg"          
+#     - name: "Cebu Lechon"
+#       content: "<span class='text-primary'>1 kg @ 1,000 pesos<br>500 grams @ 550 pesos<br>250 grams @ 300 pesos<br>125 grams @ 150 pesos</span>"
+#       image: "logoblue.jpg"
+
+###################### Call to action ########################
+
+cta:
+  enable : true
+  title : "Food Security Solution"
+  content : "Vietnam is an agricultural country with expertise in food production. Our network is well-positioned to address the global food crisis."
+  image : "/t/fish1.jpg"
+  # overlayImage : "images/cta-overlay.png"
+  button:
+    label : "View details"
+    # link : "/graphics/elivirsopening.jpg"
+
+
+# cta2:
+#   enable : true
+#   title : "Free Tinola Soup with every order"
+#   content : "All our main dishes come with free tinola soup"
+#   image : "soup200.jpg"
+  # overlayImage : "images/cta-overlay.png"
+  # button:
+  #  label : "View flyer"
+  #  link : "/promo.jpg"
+
+
+# cta3:
+#   enable : true
+#   title : "Earn Points for Every Delights Purchase"
+#   content : "Claim dishes or items for free based on your points"
+#   image : "/graphics/elivirsrewards400.png"
+#   # overlayImage : "images/cta-overlay.png"
+#   button:
+#     label : "Check it out"
+#     link : "https://elivirs.pantrypoints.com"
+
+
+# cta4:
+#   enable : true
+#   title : "Whole Lechon available"
+#   content : "Call +63 969 436 0497 to order"
+#   image : "/photos/lechon.jpg"
+#   # overlayImage : "images/cta-overlay.png"
+#   button:
+#     label : "View flyer"
+#     link : "/promo.jpg"
+
+
+
+######################## raw material #######################
+events:
+  enable : false
+  title : "Recent Events"
+  # subtitle : "Get all that you need"
+  eventItem:
+    # material item loop
+    - title : "T-shirt silkscreen"
+      link: "/events/"
+      image : "e/220331g.jpg"
+      content : "Mr. Panya dropped by during our art class"
+      
+
+
+dishes:
+  enable : true
+  title : "Our Most Popular Exports"
+  items :
+    - name: "Fish 1" 
+      image: "/t/fish1.jpg"
+      description: "Fish from the sea"
+      # link: "/main/lechon/"
+    - name: "Fish 2"
+      image: "/t/fish2.jpg"
+      description: "Excellent with beer and your buddies"      
+      # link: "/main/paksiw/"
+    - name: "Fish 3" 
+      image: "/t/fish3.jpg"
+      description: "Fish from the lake"
+      # link: "/breakfast/tapsilog/"      
+
+
+########################### Advantage #########################
+
+advantage:
+  enable : false
+  title : "Advantages Of Using <br> Our Product"
+  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  image : "images/advantage.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Extremely lightweight"
+    - listItem : "Excellent breathability"
+    - listItem : "Can increase Cell activation"
+    - listItem : "Glowing Skin In 7 Days"
+    - listItem : "Increasing Glow Of Face"
+    - listItem : "More Beautiful Face Skin"
+
+
+
+######################## Products #############################
+services:
+  enable : true
+  title : "Our Menu"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "Feedback"
+  testimonialItem:
+    - name : "Huong"
+      image : "avatars/huong.jpg" # size 100px*100px
+      designation : "Tourist"
+      content : "I tried their clams and it was good value for money"
+      rating : "five" # rating star, one to five
+            
+    - name : "John"
+      image : "avatars/john.jpg" # size 100px*100px
+      designation : "English Teacher"
+      content : "I buy fish from Savilas because they care about the environment"
+      rating : "four" # rating star, one to five
+      
+    - name : "Lam"
+      image : "avatars/lam.jpg" # size 100px*100px
+      designation : "Student"
+      content : "They value freshness, so we students are able to get discounts on fish so they will be consumed fast."
+      rating : "four" # rating star, one to five
+      
+    # - name : "Juan"
+    #   image : "avatars/jun.jpg" # size 100px*100px
+    #   designation : "Web Developer"
+    #   content : "They have vegetable dishes such as Chopsuey and Pinakbet for health-conscious diners."
+    #   rating : "four" # rating star, one to five
+      
+    - name : "Anne"
+      image : "avatars/anh.jpg" # size 100px*100px
+      designation : "Marketing"
+      content : "It's easy to market Savilas' products because they have the required documents."
+      rating : "four" # rating star, one to five      
+      
