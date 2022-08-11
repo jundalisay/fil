@@ -6,7 +6,7 @@ video:
   # videoURL : "https://www.youtube.com/embed/rMNAF1AzzZY"
 ---
 
-
+<!-- 
 ## What is the inspiration for Savilas?
 
 Savilas was created by Linh for her family business. 
@@ -21,3 +21,4 @@ Yes! We advocate:
 - Food Safety and Nutrition
 - Environmentalism
 - Increasing employment
+ -->
