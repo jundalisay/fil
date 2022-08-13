@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://filproperties.shop"
 languageCode = "en-us"
-title = "Filproperties | Manla"
+title = "Filproperties | Manila"
 theme = "hargo"
 summaryLength = "20"
 paginate = 9
