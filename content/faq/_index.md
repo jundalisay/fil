@@ -1,6 +1,7 @@
 ---
 title: "FAQ"
 # description : "FAQ for Elivir's Lechon"
+draft: true
 video:
   videoThumb : "/t/fish1.jpg"
   # videoURL : "https://www.youtube.com/embed/rMNAF1AzzZY"

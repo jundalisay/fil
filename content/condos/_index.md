@@ -1,4 +1,4 @@
 ---
-title: "Condominiums"
-description : "We have many condominiums in the Manila area"
+title: "Condominiums in Metro Manila"
+description : "Here are our condominiums in the Metro Manila area"
 ---
