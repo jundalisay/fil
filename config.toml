@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://filproperties.shop"
+baseURL = "https://filproperties.site"
 languageCode = "en-us"
 title = "Filproperties | Manila"
 theme = "hargo"
@@ -123,21 +123,6 @@ canonifyurls = true
   URL = "/looking"
   weight = 11
 
-  # [[menu.footer]]
-  # name = "Events"
-  # URL = "/events"
-  # weight = 12
-  
-  # [[menu.footer]]
-  # name = "Blog"
-  # URL = "blog"
-  # weight = 12
-   
-  # [[menu.footer]]
-  # name = "FAQ"
-  # URL = "faq"
-  # weight = 13
-
   [[menu.footer]]
   name = "Blog"
   URL = "blog"
@@ -212,7 +197,8 @@ copyright = "| @2022 [Pantry Peers](https://pantrypoints.com/build) |"
 
   # Contact Form
   [params.contact]
-  formAction = "https://formcarry.com/s/nN_oxJ8Ryot"
+  formAction = "https://formcarry.com/s/23YJt-VBl"
+  # formAction = "https://formcarry.com/s/nN_oxJ8Ryot"
   # formAction = "https://hub.pantrypoints.com/api/email"
   # formAction = "https://formcarry.com/s/NUHGWnNKMgb"
   # formAction = "https://formcarry.com/s/YtVOXzTso67"
