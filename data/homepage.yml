@@ -12,8 +12,9 @@ banner:
   # demo video
   video:
     enable : true
-    btntxt: "This week's listing"
-    # videoURL : "https://www.youtube.com/embed/aWYWcJZoqBM"
+    btntxt: "This month's featured property"
+    videoURL : "https://www.youtube.com/embed/bkabicdixSM"
+    # aWYWcJZoqBM"
     # Lin recommend https://youtu.be/hAWOU9Kw1bo
 
 
@@ -22,7 +23,7 @@ banner:
 about:
   enable : true
   title : "Our Mission"
-  content : "<p>To provide real estate sales and rentals</p>"
+  content : "<p>To provide <b>verified</b> real estate properties that are for sale or for rent within Metro Manila, and to connect buyers and sellers easily and transparently.</p><p>We take the time and effort to check either the properties or the sellers or buyers of properties to increase the possibility of a successful transaction."
   image : "/photos/office6.jpg"
 
 
@@ -30,15 +31,15 @@ about:
 ######################## Promo Video ##########################
 video:
   enable : true
-  title : "See our showcase homes and condominiums"
-  content: "<p>Our real estate</p>
-  <p>Whether you are looking for basa fish, prawns, crabs, or squid, we have them!</p>
+  title : "Our featured property for the month"
+  content: "<p>For this month, we look into Ascentia Towers, a condominium located in Manila.</p>
   " 
   # <p>Cebuanos have been well-known for roasting lechon in a way that is flavorful, tasty, and mouth-watering, 
   # with meat that is tender, juicy, and aromatic, with a crispy-skin.</p>"    
   # content : "To establish a sustainable animal shelter and build a community where people care for animals and treat them with respect and kindness."
   # Angel's Shelter is an holistic animal shelter in Laguna. Holistic means that we don't only do animal resuce and adoption, but also community-building events, healthy eating, humanistic learning, and social work"
   videoThumb : "/photos/rent.jpg"
+  videoURL : "https://www.youtube.com/embed/bkabicdixSM"
   # videoURL : "https://www.youtube.com/embed/VSaoTSxSvw0"
 
 
@@ -67,29 +68,29 @@ cta:
   # overlayImage : "images/cta-overlay.png"
   # button:
   #   label : "View details"
-    # link : "/graphics/elivirsopening.jpg"
+  #   link : "/graphics/elivirsopening.jpg"
 
-
-# cta2:
-#   enable : true
-#   title : "Free Tinola Soup with every order"
-#   content : "All our main dishes come with free tinola soup"
-#   image : "soup200.jpg"
-  # overlayImage : "images/cta-overlay.png"
-  # button:
-  #  label : "View flyer"
-  #  link : "/promo.jpg"
-
-
-# cta3:
-#   enable : true
-#   title : "Earn Points for Every Delights Purchase"
-#   content : "Claim dishes or items for free based on your points"
-#   image : "/graphics/elivirsrewards400.png"
+cta2:
+  enable : true
+  title : "Both for Buyers and Sellers"
+  content : "Are you looking for a specific type of property? Post it here"
+  image : "/photos/looking.jpg"
 #   # overlayImage : "images/cta-overlay.png"
-#   button:
-#     label : "Check it out"
-#     link : "https://elivirs.pantrypoints.com"
+  button:
+    label : "Tell us what you're looking for"
+    link : "/contact"
+
+cta3:
+  enable : true
+  title : "We Support the Pantrypoints System"
+  content : "We can do property-related tasks for you without you spending any money"
+  image : "/graphics/mobile.jpg"
+  button:
+   label : "What's Pantrypoints?"
+   link : "https://pantrypoints.com"
+
+
+
 
 
 # cta4:
@@ -121,20 +122,39 @@ events:
 dishes:
   enable : true
   title : "Our Most Viewed Properties"
+  subtitle: "Ask us for more details"
   items :
-    - name: "Coworking space" 
-      image: "/photos/office6.jpg"
-      description: "At the heart of the Makati"
-      # link: "/main/lechon/"
-    - name: "House"
-      image: "/photos/house.jpg"
-      description: "Just 10 kilometers away from Makati"      
-      # link: "/main/paksiw/"
-    - name: "Large House" 
-      image: "/photos/housefront.jpg"
-      description: "At an exclusive subdivision"
+    - name: "Condo @ Suntrust Parkview Manila For Sale" 
+      image: "/photos/suntrust2.jpg"
+      description: "At the heart of Manila"
+      link: "/condos/sonata/"
+    - name: "Bedroom @ Sonata Tower 2 Pasig For Rent"
+      image: "/photos/suntrust3.jpg"
+      description: "At the back of Shanrila hotel"      
+      link: "/condos/suntrust/"
+    # - name: "Large House" 
+    #   image: "/photos/housefront.jpg"
+    #   description: "At an exclusive subdivision"
       # link: "/breakfast/tapsilog/"      
 
+
+dishes2:
+  enable : true
+  title : "Properties Being Sought"
+  subtitle: "Feel free to message us if you have any of the following properities"
+  items :
+    - name: "10 Hectare Industrial land for storage of chemicals" 
+      image: "/graphics/ind.png"
+      description: "At the heart of Manila"
+      link: "/looking/storage"
+    - name: "Beach Property in Luzon"
+      image: "/graphics/rec.png"
+      description: "At the back of Shanrila hotel"      
+      link: "/looking/storage"
+    # - name: "Large House" 
+    #   image: "/photos/housefront.jpg"
+    #   description: "At an exclusive subdivision"
+      # link: "/breakfast/tapsilog/"      
 
 ########################### Advantage #########################
 
@@ -168,8 +188,8 @@ testimonial:
   testimonialItem:
     - name : "Huong"
       image : "avatars/huong.jpg" # size 100px*100px
-      designation : "Business Owner"
-      content : "We needed a new location for our business and found it here"
+      designation : "Condo Owner"
+      content : "We were able to sell our condo thanks to Filproperties"
       rating : "five" # rating star, one to five
             
     # - name : "John"
@@ -190,9 +210,9 @@ testimonial:
     #   content : " diners."
     #   rating : "four" # rating star, one to five
       
-    - name : "Anne"
-      image : "avatars/anh.jpg" # size 100px*100px
-      designation : "Marketing"
-      content : "Ariel helped me sell my home quickly as I moved back overseas. Highly recommend!"
-      rating : "four" # rating star, one to five      
+    - name : "Juan"
+      image : "avatars/jun.jpg" # size 100px*100px
+      designation : "Web Developer"
+      content : "Ariel is always out and about looking for leads, so you can be sure the information is up to date"
+      rating : "three" # rating star, one to five      
       

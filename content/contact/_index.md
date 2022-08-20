@@ -1,10 +1,8 @@
 ---
-title: "FAQ"
-# description : "FAQ for Elivir's Lechon"
-video:
-  videoThumb : "/t/fish1.jpg"
-  # videoURL : "https://www.youtube.com/embed/rMNAF1AzzZY"
+title: "Contact Filproperties"
+description : "Feel free to ask us about our listings or ask for help to look for specific properties"
 ---
+
 
 <!-- 
 ## What is the inspiration for Savilas?

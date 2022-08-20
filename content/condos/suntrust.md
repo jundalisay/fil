@@ -9,7 +9,7 @@ cta: "Contact us to Inquire"
 # first image will be shown in the product page
 images:
   - image: "/photos/suntrust2.jpg"
-  - image: "/photos/suntrust1.jpg"
+  # - image: "/photos/suntrust1.jpg"
   - image: "/photos/suntrust3.jpg"    
   - image: "/photos/suntrust4.jpg"
   - image: "/photos/suntrust5.jpg"
