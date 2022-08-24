@@ -1,5 +1,5 @@
 ---
-title: "Contact Filproperties"
+title: "Contact FilProperties"
 description : "Feel free to ask us about our listings or ask for help to look for specific properties"
 ---
 

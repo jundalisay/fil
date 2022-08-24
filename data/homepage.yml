@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Looking for Your Dream Home is Now Easier"
-  content: "Filproperties lists real estate in Metro Manila, updated regularly"
+  content: "FilProperties lists real estate in Metro Manila, updated regularly"
   image : "/photos/housefront.jpg"
   button1:
     enable : true
@@ -63,7 +63,7 @@ video:
 cta:
   enable : true
   title : "One Place for Properties"
-  content : "Filproperties has sale and rental listings whether for young professionals looking for affordable rentals, or seasoned investors looking for good buys."
+  content : "FilProperties has sale and rental listings whether for young professionals looking for affordable rentals, or seasoned investors looking for good buys."
   image : "/photos/forrent.jpg"
   # overlayImage : "images/cta-overlay.png"
   # button:
@@ -145,16 +145,17 @@ dishes2:
   items :
     - name: "10 Hectare Industrial land for storage of chemicals" 
       image: "/graphics/ind.png"
-      description: "At the heart of Manila"
+      description: "With or without warehouse"
       link: "/looking/storage"
     - name: "Beach Property in Luzon"
       image: "/graphics/rec.png"
-      description: "At the back of Shanrila hotel"      
-      link: "/looking/storage"
+      description: "For development into a resort"      
+      link: "/looking/beach"
     # - name: "Large House" 
     #   image: "/photos/housefront.jpg"
     #   description: "At an exclusive subdivision"
       # link: "/breakfast/tapsilog/"      
+
 
 ########################### Advantage #########################
 
@@ -189,7 +190,7 @@ testimonial:
     - name : "Huong"
       image : "avatars/huong.jpg" # size 100px*100px
       designation : "Condo Owner"
-      content : "We were able to sell our condo thanks to Filproperties"
+      content : "We were able to sell our condo thanks to FilProperties"
       rating : "five" # rating star, one to five
             
     # - name : "John"
